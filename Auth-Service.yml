@@ -7,6 +7,11 @@ spring:
     admin:
       client:
         url: http://localhost:1111/
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
 management:
   endpoints:
     web:
