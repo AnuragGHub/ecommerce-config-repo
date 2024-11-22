@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/sbms39
+    url: jdbc:mysql://localhost:3306/ashokit_ecomm
     username: root
     password: admin
   boot:
