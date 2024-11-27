@@ -27,10 +27,21 @@ product-service:
     categoryAdded: Category added successfully
     categoryAdErr: Failed to add category
     catgegoryUpdate: Category updated successfully
-    categoryUpdateErr: Failed to updated category
+    categoryUpdateErr: Failed to update category
     categoryFetch: All catgeories fetched successfully
     categoryFetchErr: Failed to fetch all categories
     categorySelect: Category retrieved successfully
     categorySelectErr: Failed to retrieve category
     categoryDelete: Category deleted successfully
     categoryDeleteErr: Failed to delete category
+    
+    productAdded: Product added successfully
+    productAddErr: Failed to add product
+    productFetch: All product fetched successfully
+    productFetchErr: Failed to fetch all product
+    productUpdate: Product updated successfully
+    productUpdateErr: Failed to update product
+    productSelect: Product retrieved successfully
+    productSelectErr: Failed to retrieve product
+    productDelete: Product deleted successfully
+    productDeleteErr: Failed to delete product
