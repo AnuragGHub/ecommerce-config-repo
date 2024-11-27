@@ -1,0 +1,24 @@
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ashokit_ecomm
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+server:
+  port: 8082
+  
+cart-service:
+  messages:
+    cart_added: Cart added successfully
+    cart_add_err: Failed to add cart
+    cart_update_success: Cart updated succesfully
+    cart_update_err: Failed to update cart
+    cart_retrieve_sucess: Cart fetched successfully
+    cart_retrieve_err: Failed to fetch cart
+    cart_delete_sucess: Cart deleted succesfully
+    cart_delete_failed: Failed to delete cart
